@@ -13,7 +13,7 @@ Behavior-Driven Development
 (BDD) est une méthode de conception logicielle qui étend TDD, par l’apport de pratiques additionnelles, et qui explore et spécifie les besoins, en mettant l’accent sur la collaboration et en s’appuyant sur les tests et leur scénarisation.
 L'automation des tests fait partie de BDD, au même titre qu'avec TDD, tout en élargissant l'utilisation des tests à tous les niveaux de test.
 
-# Script P.O.M 
+# Script linéaire
 
 Les scripts Sélénium sont développés par le design pattern POM :
 Une meilleure approche de la maintenance de script consiste à créer un fichier de classe distinct qui trouverait des éléments Web, les remplirait où les vérifierait. Cette classe peut être réutilisée dans tous les scripts utilisant cet élément. S'il y a un changement dans l'élément web, nous devons faire la modification dans seulement 1 fichier de classe.
